@@ -1,0 +1,109 @@
+:root{
+  --fontThin: Radikal-Thin;
+  --fontBold: Radikal-Bold;
+}
+
+.container{
+  height: 100vh;
+}
+
+.container-fluid{
+  background-color: lightgray;
+}
+
+.header{
+  background: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  filter: grayscale(100%);
+}
+
+.logo-wrap{
+  position: relative;
+  height: 100vh;
+}
+
+.logo{
+  width: 30vw;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(0, -50%);
+}
+
+.intro{
+  padding: 120px 0;
+}
+
+.portfolio{
+  padding: 5em 0;
+}
+
+.wrap{
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+ul.filter {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.filter li{
+  display: inline;
+  font-family : var(--fontThin);
+  font-size : 22px;
+  line-height : 40px;
+  color : #000000;
+  margin-right: 50px;
+}
+
+.gallery{
+  margin-top: 30px;
+}
+
+a:hover{
+  border: none;
+}
+
+p{
+  font-family : Radikal;
+  font-size : 30px;
+  line-height : 45px;
+  color : #000000;
+  margin: 0px;
+}
+
+
+.subhead{
+  font-family : Radikal;
+  font-weight : bold;
+  font-size : 25px;
+  line-height: 35px;
+  letter-spacing : 2.5px;
+  text-transform : uppercase;
+  border-bottom: 4px solid #000;
+  display: inline-block;
+  margin: 0px 0px 50px 0px;
+}
+
+.lead{
+  font-family : var(--fontThin);
+  font-size : 45px;
+  line-height : 65px;
+  color : #000000;
+  margin: 0px;
+}
+
+.link{
+  font-family : Radikal;
+  font-weight : bold;
+  font-size : 22px;
+  letter-spacing : 0.44px;
+  text-decoration : underline;
+  margin: 0px;
+}
